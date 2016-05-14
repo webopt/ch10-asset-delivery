@@ -1,6 +1,6 @@
-var express = require("express");
-var compression = require("compression");
-var app = express();
+var express = require("express"),
+	compression = require("compression"),
+	app = express();
 
 // Run static server
 app.use(compression());
