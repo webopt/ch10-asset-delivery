@@ -2,7 +2,7 @@ var express = require("express"),
 	compression = require("compression"),
 	path = require("path"),
 	app = express(),
-	pubDir = "/htdocs";
+	pubDir = "./htdocs";
 
 // Run static server
 app.use(compression());

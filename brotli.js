@@ -4,7 +4,7 @@ var express = require("express"),
 	fs = require("fs"),
 	path = require("path"),
 	app = express(),
-	pubDir = "/htdocs";
+	pubDir = "./htdocs";
 
 app.use(shrinkRay({
 	cache: function(request, response){
